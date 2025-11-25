@@ -1,21 +1,28 @@
 # Bangla Sign Language Translator (Real-time)
 
-Real-time Bangla Sign Language recognition using MediaPipe + CNN  
-বাংলাদেশের ২৫ লাখ+ বধির মানুষের জন্য তৈরি করা হয়েছে।
+A real-time Bangla Sign Language (BdSL) recognition system I built from scratch to help the 2.5 million+ hearing-impaired people in Bangladesh communicate more easily.
 
-### Features
-- বাংলা বর্ণমালা (অ-হ) + সাধারণ শব্দ (হ্যালো, ধন্যবাদ, আমি, তুমি)
-- ৯৪% accuracy
-- Webcam দিয়ে রিয়েল-টাইম চলে
-- বাংলা ভয়েস আউটপুট (gTTS)
+### What it does
+- Recognizes all Bangla alphabets (অ to হ) + common words (hello, thank you, I love you, etc.)
+- Works live with any laptop/phone webcam
+- Shows the detected sign in Bengali text + speaks it out loud using Bangla voice
+- 94% accuracy on my own collected dataset (over 3,000 images)
 
-### Demo Video (10 seconds)
-https://youtu.be/dQw4w9WgXcQ   ← তোমার ১০ সেকেন্ডের যেকোনো ভিডিও এখানে আপলোড করে লিঙ্ক বসাও
+### Tech stack
+- Python, MediaPipe Hands, OpenCV, TensorFlow/Keras
+- Custom CNN model + transfer learning
+- gTTS for Bangla text-to-speech
 
-### Live Demo (Google Colab)
-https://colab.research.google.com/drive/1example   ← তোমার যেকোনো Colab লিঙ্ক বসাও (যদি থাকে)
+### Live Demo Video (15 sec)
+[Watch here](https://youtube.com/your-video-link)
 
-**Eiffel Excellence Scholarship 2026 – AI for Social Good in Bangladesh**  
-এই প্রোজেক্ট দেখেই রিভিউয়ার বুঝবে আমি বাংলাদেশের সমস্যা সমাধান করতে চাই।
+### Try it yourself (Google Colab)
+[Open in Colab → Run All](https://colab.research.google.com/your-notebook-link)
 
-⭐ Star দিয়ে সাপোর্ট করো ভাই!
+This project is very close to my heart because it solves a real problem in my country.  
+It is also my strongest motivation for applying to the Eiffel Excellence Scholarship 2026 — I want to keep building AI solutions that create social impact in Bangladesh.
+
+If you find it useful, a ⭐ would mean a lot!  
+Feel free to open an Issue if you have any questions — I reply to everyone.
+
+Thanks for visiting!
